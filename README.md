@@ -1,5 +1,8 @@
 # Smart Maps x GS Concept & Implementation
 
+[![hackmd-github-sync-badge](https://hackmd.io/zmyDo8PMTnWdUf_jyIYj4A/badge)](https://hackmd.io/zmyDo8PMTnWdUf_jyIYj4A)
+
+
 # Concept
 ## 私（hfu）にとっての背景
 1. 11月にソウルで開催される[国連オープンGIS合同ワークショップ](https://foss4g.asia/2023/un-open-gis/)のテーマは、「平和と人道のための開かれたGIS」である。
@@ -42,3 +45,24 @@
 
 ### GSの範囲のGeoJSONをとる
 [HDX](https://data.humdata.org/dataset/cod-ab-pse?)のpse_adm_pamop_20231019_SHP.zip (1.7M; Updated: 20 October 2023)を入手し、QGISで切り出しを行った。
+
+切り出したデータは GeoJSON にして https://github.com/hfu/gs/blob/main/gs.geojson においている。これは United Nations OCHA occupied Palestinian territory (oPt) の CC-BY データであるということになる。
+
+上記データのローデータは https://raw.githubusercontent.com/hfu/gs/main/gs.geojson であるということになる。
+
+### OSMFJ PMTiles を切り出し
+最近の go-pmtiles を使って、次のコマンドで切り出すことができる。
+
+```zsh
+pmtiles extract --region=gs.geojson https://tile.openstreetmap.jp/static/planet.pmtiles gs.pmtiles
+```
+
+これで作ることができた　gs.pmtiles の大きさは5.9MBと良好だ。
+
+このサイズであれば、ということで、とりあえず GitHub に[あげた](https://github.com/hfu/gs/blob/main/gs.pmtiles)。amx-project/kuwanauchi メソッドである。
+
+(c) OpenStreetMap contributors.
+
+GitHub Pages を　enable したので、`https://hfu.github.io/gs/gs.pmtiles` というアドレスで取り扱えるようになり、PMTiles Viewerでチェックしてみれば、https://protomaps.github.io/PMTiles/?url=https://hfu.github.io/gs/gs.pmtiles をたどれば良いことになる。
+
+![screenshot](https://user-images.githubusercontent.com/18297/277114871-5f804cfe-fb17-4598-9f16-f370a2a2b858.png)
