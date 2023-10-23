@@ -63,6 +63,39 @@ pmtiles extract --region=gs.geojson https://tile.openstreetmap.jp/static/planet.
 
 (c) OpenStreetMap contributors.
 
-GitHub Pages を　enable したので、`https://hfu.github.io/gs/gs.pmtiles` というアドレスで取り扱えるようになり、PMTiles Viewerでチェックしてみれば、https://protomaps.github.io/PMTiles/?url=https://hfu.github.io/gs/gs.pmtiles をたどれば良いことになる。
+GitHub Pages を　enable したので、`https://hfu.github.io/gs/gs.pmtiles` というアドレスで取り扱えるようになった。
+
+PMTiles をホストしたときに最初に行うことは、PMTiles Viewerでチェックすることだ。
+
+https://protomaps.github.io/PMTiles/?url=https://hfu.github.io/gs/gs.pmtiles から次のスクリーンショットの通りの表示が得られており、データはうまく切り出せたことがわかった。
 
 ![screenshot](https://user-images.githubusercontent.com/18297/277114871-5f804cfe-fb17-4598-9f16-f370a2a2b858.png)
+
+### OSMFJ スタイルを適用
+次にスタイルをあてる。
+
+https://tile.openstreetmap.jp/styles/osm-bright-ja/style.json の src を `pmtiles://https://hfu.github.io/gs/gs.pmtiles` に入れ替えたものを作り、それをホストすれば良い。
+
+入れ替え版 style.json は　`jq` でやってみることにしよう。
+
+ホストは、StackBlitz でそれをやることにしよう。
+
+#### jq
+jq で一歩前進。こういった形で作業を進めていきます。
+
+```zsh
+curl https://tile.openstreetmap.jp/styles/osm-bright-ja/style.json | jq '.sources'
+```
+
+実際、sourcesを書き換えるには、
+
+```zsh=
+curl https://tile.openstreetmap.jp/styles/osm-bright-ja/style.json | jq '.sources |= {"openmaptiles": {"type": "vector", "minzoom": 0, "maxzoom": 14, "url": "pmtiles://https://hfu.github.io/gs/gs.pmtiles", "attribution": "OpenStreetMap contributors"}}' | jq 'del(.layers[] | select(.source == "takeshima" or .source == "hoppo"))'
+```
+
+これで作ったファイルを https://github.com/hfu/gs/blob/main/styles/osm-bright-ja/style.json　= https://hfu.github.io/gs/styles/osm-bright-ja/style.json に置きました。
+
+このスタイルファイルを読み込むサイトを、次の２箇所に作った。
+
+- [Observable](https://observablehq.com/d/0f3af92460e4567c)
+- [StackBlitz](https://stackblitz.com/edit/vitejs-vite-efkwym?file=src%2FApp.tsx)
