@@ -2,7 +2,7 @@
 
 ## Background stories
 
-- [stories/hfu]
+- [stories/hfu](./stories/hfu.md)
 
 ## How to use
 
