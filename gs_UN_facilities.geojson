@@ -1,0 +1,855 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "way/41243096",
+  "properties": {
+    "amenity": "school",
+    "name": "UNRWA Female School",
+    "name:ja": "UNRWA女子学校",
+    "operator:short": "UNRWA",
+    "id": "way/41243096"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.5183984,
+          31.546875
+        ],
+        [
+          34.5179454,
+          31.5471508
+        ],
+        [
+          34.5171985,
+          31.5464226
+        ],
+        [
+          34.5179921,
+          31.5463564
+        ],
+        [
+          34.5183984,
+          31.546875
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41243302",
+  "properties": {
+    "amenity": "public_building",
+    "building": "yes",
+    "name": "UNRWA Wearhouse Center",
+    "name:ar": "مخازن وكالة الغوث",
+    "id": "way/41243302"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.5249408,
+          31.538844
+        ],
+        [
+          34.524818,
+          31.538738
+        ],
+        [
+          34.5252006,
+          31.5384703
+        ],
+        [
+          34.5253078,
+          31.5385824
+        ],
+        [
+          34.5249408,
+          31.538844
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41253986",
+  "properties": {
+    "building": "yes",
+    "name": "UNRWA Stores",
+    "name:ar": "مخازن الوكالة",
+    "shop": "convenience",
+    "id": "way/41253986"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4830965,
+          31.5172294
+        ],
+        [
+          34.4828424,
+          31.5175337
+        ],
+        [
+          34.4827238,
+          31.5174711
+        ],
+        [
+          34.4826992,
+          31.5174851
+        ],
+        [
+          34.4826604,
+          31.5174597
+        ],
+        [
+          34.4825941,
+          31.5174164
+        ],
+        [
+          34.4825729,
+          31.5174025
+        ],
+        [
+          34.4825933,
+          31.5173772
+        ],
+        [
+          34.4826669,
+          31.5172822
+        ],
+        [
+          34.4827814,
+          31.5171345
+        ],
+        [
+          34.4828013,
+          31.5171183
+        ],
+        [
+          34.4828403,
+          31.517133
+        ],
+        [
+          34.4828989,
+          31.517155
+        ],
+        [
+          34.4830965,
+          31.5172294
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41255324",
+  "properties": {
+    "building": "yes",
+    "name": "UNRWA Distribution Center - Al Zaytoon Area",
+    "name:ar": "مركز الأونروا توزيع المؤن - منطقة الزيتون",
+    "shop": "convenience",
+    "id": "way/41255324"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4755234,
+          31.5110897
+        ],
+        [
+          34.4741252,
+          31.510463
+        ],
+        [
+          34.4742805,
+          31.5102486
+        ],
+        [
+          34.4755985,
+          31.5109731
+        ],
+        [
+          34.4755234,
+          31.5110897
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41255676",
+  "properties": {
+    "aid_organization": "yes",
+    "fixme": "\"landuse\" seems more appropriate than \"place = locality\" without more specific tag",
+    "humanitarian_organization": "yes",
+    "name": "UNRWA Headquarter",
+    "name:ar": "مقر الأمم المتحدة",
+    "name:de": "UNRWA Hauptquartier",
+    "name:he": "אונר\"א",
+    "name:ja": "UNRWA 国連パレスチナ難民救済事業機関ガザ本部",
+    "office": "ngo",
+    "operator": "UNRWA",
+    "id": "way/41255676"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4424276,
+          31.513831
+        ],
+        [
+          34.4423997,
+          31.5138209
+        ],
+        [
+          34.4420076,
+          31.5133866
+        ],
+        [
+          34.441239,
+          31.5126113
+        ],
+        [
+          34.441227,
+          31.5125987
+        ],
+        [
+          34.4409518,
+          31.5123087
+        ],
+        [
+          34.4415277,
+          31.5119766
+        ],
+        [
+          34.4411639,
+          31.5115214
+        ],
+        [
+          34.4416561,
+          31.5112345
+        ],
+        [
+          34.4421736,
+          31.5115997
+        ],
+        [
+          34.4426242,
+          31.5113314
+        ],
+        [
+          34.4426945,
+          31.5113827
+        ],
+        [
+          34.443174,
+          31.5117015
+        ],
+        [
+          34.4431894,
+          31.5117111
+        ],
+        [
+          34.4437696,
+          31.5120398
+        ],
+        [
+          34.4437856,
+          31.5121113
+        ],
+        [
+          34.4438186,
+          31.5121225
+        ],
+        [
+          34.443824,
+          31.5121249
+        ],
+        [
+          34.443849,
+          31.5121361
+        ],
+        [
+          34.4438827,
+          31.512093
+        ],
+        [
+          34.4445263,
+          31.5123958
+        ],
+        [
+          34.4446084,
+          31.5125085
+        ],
+        [
+          34.4446071,
+          31.5126365
+        ],
+        [
+          34.444507,
+          31.5127636
+        ],
+        [
+          34.4444071,
+          31.5128319
+        ],
+        [
+          34.4429893,
+          31.5135862
+        ],
+        [
+          34.4424618,
+          31.5138292
+        ],
+        [
+          34.4424276,
+          31.513831
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41255858",
+  "properties": {
+    "landuse": "commercial",
+    "name": "UNRWA Beach Distribution Center",
+    "name:ar": "مركز توزيع مؤن الشاطئ-وكالة",
+    "id": "way/41255858"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.440149,
+          31.530481
+        ],
+        [
+          34.4395193,
+          31.5299875
+        ],
+        [
+          34.4398359,
+          31.529739
+        ],
+        [
+          34.4404686,
+          31.5302191
+        ],
+        [
+          34.440149,
+          31.530481
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41256685",
+  "properties": {
+    "amenity": "public_building",
+    "building": "yes",
+    "name": "Al-Sabra Distribution Center - UNRWA",
+    "name:ar": "مركز توزيع مساعدات الصبرة",
+    "id": "way/41256685"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4407324,
+          31.4992352
+        ],
+        [
+          34.4406478,
+          31.499126
+        ],
+        [
+          34.4408224,
+          31.4990268
+        ],
+        [
+          34.4409198,
+          31.4991347
+        ],
+        [
+          34.4408617,
+          31.499164
+        ],
+        [
+          34.4408837,
+          31.4991952
+        ],
+        [
+          34.4408065,
+          31.4992328
+        ],
+        [
+          34.4407824,
+          31.4992087
+        ],
+        [
+          34.4407324,
+          31.4992352
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41314396",
+  "properties": {
+    "amenity": "hospital",
+    "building": "yes",
+    "name": "Al Naser Medical Center - UNRWA",
+    "name:ar": "مركز صحي النصر - وكالة",
+    "source": "Pleiades 20140706, CNES, Airbus Defense and Space",
+    "id": "way/41314396"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.2971886,
+          31.288715
+        ],
+        [
+          34.2971385,
+          31.2887101
+        ],
+        [
+          34.2971367,
+          31.2887257
+        ],
+        [
+          34.2970731,
+          31.2887222
+        ],
+        [
+          34.2970736,
+          31.2887011
+        ],
+        [
+          34.2969629,
+          31.2886902
+        ],
+        [
+          34.2969626,
+          31.2885704
+        ],
+        [
+          34.2969926,
+          31.2885706
+        ],
+        [
+          34.2969967,
+          31.2884863
+        ],
+        [
+          34.2971965,
+          31.2885048
+        ],
+        [
+          34.2971886,
+          31.288715
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41314673",
+  "properties": {
+    "alt_name": "السنتيشين",
+    "amenity": "public_building",
+    "name": "Sanatation UNRWA",
+    "name:ar": "مركز توزيع الوكالة",
+    "id": "way/41314673"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.2511548,
+          31.2834008
+        ],
+        [
+          34.2508096,
+          31.2831912
+        ],
+        [
+          34.2509716,
+          31.2829964
+        ],
+        [
+          34.2513167,
+          31.283206
+        ],
+        [
+          34.2511548,
+          31.2834008
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41317579",
+  "properties": {
+    "amenity": "hospital",
+    "name": "UNRWA Center",
+    "name:ar": "عيادة الوكالة -تل السلطان",
+    "id": "way/41317579"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.2384032,
+          31.305207
+        ],
+        [
+          34.2378495,
+          31.3050193
+        ],
+        [
+          34.2379681,
+          31.3046654
+        ],
+        [
+          34.2385592,
+          31.3048761
+        ],
+        [
+          34.2384032,
+          31.305207
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/41319372",
+  "properties": {
+    "building": "hospital",
+    "building:levels": "3",
+    "name": "UNRWA Hospital",
+    "name:ar": "عيادة الوكالة بتل السلطان",
+    "id": "way/41319372"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.2376317,
+          31.3154233
+        ],
+        [
+          34.2370288,
+          31.3151503
+        ],
+        [
+          34.2373322,
+          31.3146612
+        ],
+        [
+          34.2379351,
+          31.3149342
+        ],
+        [
+          34.2376317,
+          31.3154233
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/108814282",
+  "properties": {
+    "building": "yes",
+    "name": "UNDP",
+    "name:ja": "UNDP 国連開発計画ガザ事務所",
+    "office": "ngo",
+    "id": "way/108814282"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4470459,
+          31.5246798
+        ],
+        [
+          34.4468467,
+          31.524511
+        ],
+        [
+          34.4470121,
+          31.5243693
+        ],
+        [
+          34.4472112,
+          31.524538
+        ],
+        [
+          34.4470459,
+          31.5246798
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/296272500",
+  "properties": {
+    "building": "yes",
+    "name": "UNRWA Headquarter",
+    "id": "way/296272500"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4429392,
+          31.5128651
+        ],
+        [
+          34.4427043,
+          31.512553
+        ],
+        [
+          34.4427871,
+          31.5125075
+        ],
+        [
+          34.4430233,
+          31.5128205
+        ],
+        [
+          34.4429392,
+          31.5128651
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "way/297432157",
+  "properties": {
+    "amenity": "clinic",
+    "building": "yes",
+    "healthcare": "clinic",
+    "name": "UNRWA Health Center",
+    "name:ar": "المركز الصحي لوكالة الغوث",
+    "source": "Pleiades 20140706, CNES, Airbus Defense and Space",
+    "id": "way/297432157"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.4650301,
+          31.506637
+        ],
+        [
+          34.4651833,
+          31.5068624
+        ],
+        [
+          34.4650534,
+          31.5069265
+        ],
+        [
+          34.4649577,
+          31.5067855
+        ],
+        [
+          34.4649433,
+          31.5067926
+        ],
+        [
+          34.4649125,
+          31.5067473
+        ],
+        [
+          34.4649238,
+          31.5067418
+        ],
+        [
+          34.4648972,
+          31.5067026
+        ],
+        [
+          34.4650301,
+          31.506637
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/503998428",
+  "properties": {
+    "name": "Jabalia water pump - UNRWA-4",
+    "name:ar": "مضخة مياه جباليا رقم 4",
+    "natural": "water",
+    "id": "node/503998428"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.4969489,
+      31.5402142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/504260633",
+  "properties": {
+    "landuse": "industrial",
+    "name": "UNRWA Carpentry",
+    "name:ar": "منجرة الوكالة",
+    "natural": "wood",
+    "id": "node/504260633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.475357,
+      31.5109128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/504288554",
+  "properties": {
+    "barrier": "entrance",
+    "bicycle": "yes",
+    "foot": "yes",
+    "motorcar": "yes",
+    "name": "Main entrance for UNRWA",
+    "name:ar": "المدخل الرئيسي للموظفين للوكالة",
+    "id": "node/504288554"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.4420076,
+      31.5133866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2399342138",
+  "properties": {
+    "addr:housename": "UNESCO",
+    "addr:street": "Khalid al Rdaydeh",
+    "name": "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+    "name:ja": "UNESCO 国際連合教育科学文化機関",
+    "office": "UN",
+    "wikidata": "Q7809",
+    "wikipedia": "en:UNESCO",
+    "id": "node/2399342138"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.436322,
+      31.5212326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4454975090",
+  "properties": {
+    "name": "UNESCO",
+    "name:en": "UNESCO",
+    "name:ja": "UNESCO 国際連合教育科学文化機関",
+    "office": "yes",
+    "id": "node/4454975090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.4359323,
+      31.5206271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4798122322",
+  "properties": {
+    "leisure": "fitness_centre",
+    "name": "UNRWA GEM",
+    "name:ar": "UNRWA GEM",
+    "id": "node/4798122322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.4427834,
+      31.5136104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4798132921",
+  "properties": {
+    "amenity": "restaurant",
+    "name": "UNRWA RESTAURANT",
+    "name:ar": "UNRWA RESTAURANT",
+    "name:en": "UNRWA RESTAURANT",
+    "id": "node/4798132921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      34.4430427,
+      31.5134061
+    ]
+  }
+}
+]
+}
